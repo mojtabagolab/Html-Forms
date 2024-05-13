@@ -9,5 +9,5 @@ Some examples of simple html forms with different types of input
 
 ## Preview
 <p align="center">
-  <img src="view.jpg" width="500"/>
+  <img src="view.jpg" width="700"/>
 </p>
