@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <style>
+        body{
+            font-family:Roboto;
+            font-size: 18px;
+        }
+    </style>
+
+</head>
+<body>
+    <header></header>
+    <main>
+        <section>
+            <div>
+                <form action="">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <h3>Full Name</h3>
+                        <br>
+                        <div>
+                            <label for="Fname"> First Name :</label>
+                            <input type="text" id="Fname">
+                        </div>
+                        <div>
+                            <label for="Lname"> Last Name :</label>
+                            <input type="text" id="Lname">
+                        </div>
+                        <br>
+                        <h3>Gender</h3>
+                        <br>
+                        <div>
+                            <input type="radio" name="Gender" value="male">
+                            <label>Male</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="Gender" value="female">
+                            <label>Female</label>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Skills</legend>
+                        <h3>Language :</h3>
+                        <br>
+                        <div>
+                            <input type="checkbox">
+                            <label >Html5</label>
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            <label >Css3</label>
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            <label >Js</label>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Programming Language</legend>
+                        <h3>Choose your Programming Language</h3>
+                        <input type="text" list="ProgrammingLanguage">
+                        <datalist id="ProgrammingLanguage">
+                            <option>Jva</option>
+                            <option>Html</option>
+                            <option>Css</option>
+                            <option>Python</option>
+                            <option>Ruby</option>
+                            <option>Js</option>
+                            <option>Php</option>
+                            <option>Kotlin</option>
+                            <option>Dart</option>
+                        </datalist>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    
+    
+</body>
+</html>
